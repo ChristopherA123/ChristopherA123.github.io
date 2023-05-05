@@ -12,9 +12,14 @@ h2 {
 }
 
 .main-content {
-    color: rgb(119, 63, 63);
+    color: rgb(221, 216, 216);
     text-align: center;
     font-size: x-large;
+    border: 2px;
+    padding: 5px;
+    border-radius: 3.5px;
+    border-style: solid;
+    border-color: black;
 }
 
 .italic_text {
@@ -71,7 +76,7 @@ body {
 }
 
 p:hover {
-    background-color: rgb(228, 227, 158);
+    background-color: rgb(0, 89, 100);
     box-shadow: 0 5px 8px 2px rgba(83, 83, 83, 0.1);
 }
 
@@ -152,4 +157,10 @@ a {
     border-radius: 2.5px;
     border-style: double;
     font-size: x-large;
+}
+
+.jokeButton:hover {
+    transition-property: all;
+    transition-delay: 0.2;
+    background-color: red;
 }
